@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    display: block;
 }
 #form-container{
     display: flex;
@@ -23,14 +24,14 @@ body{
     justify-content: center;
     align-items: center;
     
-    height: 200px;
+    height: 175px;
     padding: 20px 0;
-    margin-top: 20vh;
+    margin-top: 30vh;
     
     padding-bottom: 20px;
     color: white;
     font-size: 100px;
-    background-color: rgba(0, 0, 0, 0.48);
+    background-color: rgba(0, 0, 0, 0.549);
 }
 .banner-logo{
     max-height: 100%
@@ -39,16 +40,64 @@ body{
 #main-content{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     flex-basis: 0%;
     flex-shrink: 1;
     flex-grow: 3;
+    gap: 25px;
+
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: rgb(240, 240, 240)
 }
 #form-description{
-    border: solid;
+    padding: 0 50px;
+    font-size: 24px;
+
 }
 #input-container{
-    border: solid;
+    background-color: white;
+    padding: 0 50px;
+    box-shadow: 0 12px 5px -5px gray;
+}
+#form{
+    font-size: 15px;
+    display: flex;
+    gap: 80px;
+
+}
+.form-column{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 35px;
+    gap: 25px;
 }
 #submit-container{
-    border: solid;
+
+    padding: 0 50px;
+    padding-top: 20px;
+}
+#submit-button{
+    border-style: none;
+    color: white;
+    padding: 15px 30px;
+    background-color: rgb(89 130 89);
+    font-size: 20px;
+    border-radius: 4px;
+
+}
+.bolded-text{
+    font-weight: bold;
+    
+}
+.input-font-size{
+    font-size: 24px;
+}
+input, label{
+    display: block;
+}
+input{
+    border-radius: 4px;
+    font-size: 25px;
+    border-style: solid;
 }
