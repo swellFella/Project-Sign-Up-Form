@@ -91,6 +91,13 @@ body{
     border-radius: 4px;
 
 }
+#submit-button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+#submit-button:active{
+    transform: translateY(2px);
+}
 .bolded-text{
     font-weight: bold;
     
@@ -105,4 +112,13 @@ input{
     border-radius: 4px;
     font-size: 25px;
     border-style: solid;
+    outline: 0;
+}
+input:focus{
+    border-color: blue;
+    outline: 0;
+    box-shadow: 0px 5px 5px -5px;
+}
+.pass-error{
+    border-color: red;
 }
