@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+#form-container{
+    display: flex;
+    height: 100vh;
+}
+#side-hero{
+    text-align: center;
+    
+    position: relative;
+    background-position: center;
+    background-image: url("./side-hero-image.jpg");
+    background-size: cover;
+    
+    flex-basis: 0%;
+    flex-shrink: 1;
+    flex-grow: 2;
+    
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 200px;
+    padding: 20px 0;
+    margin-top: 20vh;
+    
+    padding-bottom: 20px;
+    color: white;
+    font-size: 100px;
+    background-color: rgba(0, 0, 0, 0.48);
+}
+.banner-logo{
+    max-height: 100%
+}
+
+#main-content{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0%;
+    flex-shrink: 1;
+    flex-grow: 3;
+}
+#form-description{
+    border: solid;
+}
+#input-container{
+    border: solid;
+}
+#submit-container{
+    border: solid;
+}
