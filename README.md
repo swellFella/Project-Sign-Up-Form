@@ -5,3 +5,5 @@ This project demonstrates:
 
 * CSS styling
 * HTML
+
+Live preview: https://swellfella.github.io/Project-Sign-Up-Form/
